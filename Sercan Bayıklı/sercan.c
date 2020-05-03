@@ -1,7 +1,0 @@
-
-
-
-
-
-
-bu bir deneme dosyasidiR
