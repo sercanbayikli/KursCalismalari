@@ -1,0 +1,20 @@
+Herkes kendi Github klasörünün içerisine “03.05.2020” klasörü açacak ve klasör içerisine “isim.c”, “isim.exe/isim.a vb. (çıktı dosyası)” şeklinde yükleyecek. 
+Klasörde kesinlikle başka klasör veya dosya-gizli dosyalar olmayacak.
+Ödevler “vi” üzerinden yapılacak ve “gcc” ile derlenecek.
+Sınavlar benzer şekilde yapılacağından özen göstermeye dikkat edin.
+
+Alıştırmalar:
+	Girilen 10 sayının ortalamasını veren programı yazın. (Ornek01) 
+	Girilen 2 sayıya kullanıcının istediği 4 işlemi yaptıran programı yazın. (Ornek02) 
+	Girilen sayının kaç basamaklı olduğunu bulan programı yazın. (Ornek03) 
+	Girilen sayının basamaklarını ayrı ayrı yazdıran programı yazın. (Ornek04) 
+	Boşluk kullanılarak girilen argümanları ekrana tek tek yazan programı yazın. (Ornek05)
+		Giriş:
+			Boya badana Bandana.	
+		Çıktı:
+			Boya
+			Badana
+			Bandana
+	Boşluk kullanılarak girilen iki kelimede farklı olan harfleri silen programı yazın. (Ornek06)
+	Boşluk kullanılarak girilen iki kelimede aynı olan harfleri silen programı yazın. (Ornek07)
+
