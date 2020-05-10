@@ -6,7 +6,9 @@ int main(void){
         do {
                 i++;
                 sayi = sayi/10;
-		printf("%d\n", sayi);
+		if(sayi!=0){
+			printf("%d\n", sayi);
+		}
         } while(sayi != 0);
         printf("Basamak sayisi: %d", i);
         return 0;
