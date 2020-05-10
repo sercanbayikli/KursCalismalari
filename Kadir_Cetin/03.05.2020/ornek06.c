@@ -23,8 +23,8 @@ int e=0;
 	}
 			
   for(int i=0;i<2;i++){
-	for(int v=0;v<10;v++){
-	printf("%c",c[i][v]);
+	for(int a=0;a<10;a++){
+	printf("%c",c[i][a]);
 	}
 	printf("\n");
 	}
