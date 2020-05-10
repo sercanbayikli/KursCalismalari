@@ -1,7 +1,16 @@
 #include <stdio.h>
-char item[50],;
-int a,b=1;
-printf("kac tane arguman girceksin?\n"); scanf("%d", a);
-for(int i=0;i>a;i++){
- prinft("%d.argüman")
+
+char items[100];
+int a=0;
+
+int main(){
+
+printf("arguman giriniz\n");
+
+for(int a=0;a<3;a++){
+	scanf("%s",items);
+	printf("\n%s",items);
+	}
+return 0;
 }
+
