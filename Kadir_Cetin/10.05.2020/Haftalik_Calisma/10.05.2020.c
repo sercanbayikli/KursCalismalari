@@ -32,7 +32,7 @@ char mykurslar[100][100][100][100];
 
 
 
-int login() {
+int main() {
 
   while (1) {
 
