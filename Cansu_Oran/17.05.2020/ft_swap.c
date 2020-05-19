@@ -1,18 +1,21 @@
 void ft_putchar(char c);
 void ft_swap(int *a,int *b);
 int main(){
-*a=5;
-*b=3;
+int a=5;
+int b=3;
+int *c=
 ft_swap(*a,*b);
 
 }
 
-void ft_swap(int *a,int *b){
+void	ft_swap(int *a, int *b)
+{
+	int c;
 
-int tmp_a;
-
-    tmp_a = *a;
-    *a = *b;
-    *b = tmp_a;
-
+	if (a && b)
+	{
+		c = *a;
+		*a = *b;
+		*b = c;
+	}
 }
