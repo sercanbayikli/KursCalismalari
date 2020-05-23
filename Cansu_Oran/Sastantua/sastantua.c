@@ -28,43 +28,43 @@ void sastantua(int x){
         toplam=toplam+cık;}
     draw(x,toplam-cık);
     
-    }
+}
 
 void draw(int x,int toplam){
     int bos=((toplam-1)/2-1),b=1,l=2,cık=2,dev=1;
     int h=toplam-2*((2*toplam-6)/4-1),j=-2;
     
     for(int a=1;a<=x;a++){// birim
-    for(int p=1;p<=l+a;p++){// satır
-    for(int bo=1;bo<=bos;bo++){// boşluk
-        ft_putchar(' ');
-    }
-        ft_putchar('/');
-        for(int k=1;k<=b;k++){
-            ft_putchar('*');
-             if(a==x && p>=x/2+1 && k==((2*toplam-6)/4-2)-x/2+j){
-                 j++;
-                 for(int r=1;r<=h;r++){
-                     
-                     if(p==x/2+2&& r== h-1){
-                       ft_putchar('$');
-                         
-                     }
-                     else{
-                         ft_putchar('|');
-                     }
-                     
-                     
-                     
-                 }
-                 
+        for(int p=1;p<=l+a;p++){// satır
+            for(int bo=1;bo<=bos;bo++){// boşluk
+                ft_putchar(' ');
+            }
+            ft_putchar('/');
+            for(int k=1;k<=b;k++){
+                ft_putchar('*');
+                if(a==x && p>=x/2+1 && k==((2*toplam-6)/4-2)-x/2+j){
+                    j++;
+                    for(int r=1;r<=h;r++){
+                        
+                        if(p==x/2+2&& r== h-1){
+                            ft_putchar('$');
+                            
+                        }
+                        else{
+                            ft_putchar('|');
+                        }
+                        
+                        
+                        
+                    }
+                    
                     k=k+h;
-                 }
-        }
-        ft_putchar('\\');
-        ft_putchar('\n');
-        bos--;
-        b=b+2;
+                }
+            }
+            ft_putchar('\\');
+            ft_putchar('\n');
+            bos--;
+            b=b+2;
         }
         if(dev+2==a){
             cık++;
