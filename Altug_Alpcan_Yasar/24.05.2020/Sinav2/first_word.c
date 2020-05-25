@@ -7,17 +7,10 @@ int main (int argc, char *argv[]) {
 	}
 	else {
 		int x = 0;
-		while (argv[1][x] != '\0') {
-			if (argv[1][x] >= 97 && argv[1][x] <= 122) {
-				argv[1][x] -= 32;
-			}
-			else if (argv[1][x] >= 65 && argv[1][x] <= 90) {
-				argv[1][x] += 32;
-			}
+		while (argv[1][x] != '\0' && argv[1][x] != ' ') {
 			write(1,&argv[1][x],1);
 			x++;
 		}
 		write(1,&nl,1);
 	}
-	return 0;
 }
