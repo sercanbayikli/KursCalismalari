@@ -9,7 +9,7 @@ int zar[6],atis=0,deger[6],rand1,manual=0;
 
 int main(int argc, char *argv[]){
 system("clear");
-while(manual!=1 || manual!=1){
+while(manual!=1 || manual!=2){
 printf("1-Manual\n2-oto\n\tSecim: ");
 scanf("%d",&manual);}
 zar_deger();
