@@ -5,15 +5,17 @@ int ft_atoi(char *c);
 #include <stdio.h>
 int zar_deger();
 int buyuk();
-int zar[6],atis=0,deger[6],rand1,manual=0;
+int zar[6],atis=0,deger[6],rand1,manual=3;
 
 int main(int argc, char *argv[]){
 system("clear");
-while(manual!=1 || manual!=2){
-printf("1-Manual\n2-oto\n\tSecim: ");
-scanf("%d",&manual);}
-zar_deger();
+    while(1){
+    printf("1-Manual\n2-oto\n\tSecim: ");
+    scanf("%d",&manual);
+    if(manual)
 
+
+        if(manual==1 || manual==2){
 while(atis<=37){
 printf("Zar sayısı girin: ");
 scanf("%d",&atis);}
@@ -37,8 +39,10 @@ for(int a=0;a<3;a++){
 int b=buyuk();
 printf("	%d- %d",a+1,zar[b]);
 }
+            return 0;
+        }
 
-
+    }
 }
 
 int zar_deger(){
