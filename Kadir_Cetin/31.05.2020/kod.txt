@@ -1,10 +1,19 @@
 Kod : 
 
 
-Öncelikle benim kod yapıma göre satır sayısını azaltmak için zarın kaç defa atılacağını ilk olarak soruyor sonrasında otomatik ve manuel olarak seçim sunuyor, sonraki satırda 6 değerin hepsine 0 veriyor çünkü random değer aldığında +1 yapmak için bir değere sahip olmaları gerekiyor, eğer kullanıcı manuel olarak seçtiyse direkt olarak 6 tane değer isteniyor ve bu değerler dizeye atılıyor daha sonrasında bu değerler bulundukları sıra(1-6) kaç defa çıkarsa o kadar puan alıyor.
+Öncelikle benim kod yapıma göre satır sayısını azaltmak için zarın kaç defa
+atılacağını ilk olarak soruyor sonrasında otomatik ve manuel olarak seçim sunuyor, sonraki
+satırda 6 değerin hepsine 0 veriyor çünkü random değer aldığında +1 yapmak için bir değere
+sahip olmaları gerekiyor, eğer kullanıcı manuel olarak seçtiyse direkt olarak 6 tane değer
+isteniyor ve bu değerler dizeye atılıyor daha sonrasında bu değerler bulundukları sıra(1-6)
+kaç defa çıkarsa o kadar puan alıyor.
 
-	Bakim diye bir değişken var bu kaç defa çekildiğini ve çekilen puanların toplamını veriyor(girdiğim sayı kadar sonuç çıkıyor mu diye kontrol için eklendi) daha sonra yüzde hesabı için girilen sayı 100 ile çarpılıp çıkan sayı dizenin elemanı kaç puan aldıysa ona bölünüyor ve yazdırılıyor.
+Bakim diye bir değişken var bu kaç defa çekildiğini ve çekilen puanların toplamını
+veriyor(girdiğim sayı kadar sonuç çıkıyor mu diye kontrol için eklendi) daha sonra yüzde
+hesabı için girilen sayı 100 ile çarpılıp çıkan sayı dizenin elemanı kaç puan aldıysa ona
+bölünüyor ve yazdırılıyor.
 
-	En sonda bir girdi isteniyor ama benim aklımdan geçen girilen yüzdeyi ekleyip işlemi devam ettirip en yüksek çıkan ilk 3 değeri yazmak yerine bu kodun bir yüzdeye göre değil tamamen rastgele verdiğini farketmem ile sadece 3 tane rastgele değer alıp yazdırmam ile bitiyor.
-
+En sonda bir girdi isteniyor ama benim aklımdan geçen girilen yüzdeyi ekleyip işlemi devam
+ettirip en yüksek çıkan ilk 3 değeri yazmak yerine bu kodun bir yüzdeye göre değil tamamen
+rastgele verdiğini farketmem ile sadece 3 tane rastgele değer alıp yazdırmam ile bitiyor.
 
