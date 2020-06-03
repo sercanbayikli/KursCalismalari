@@ -1,0 +1,6 @@
+Rastgele sayı üretmenin mantığı : 
+
+	Bu işlemi rand(); komutu ile gerçekleştiriyoruz bu komut stdlib.h kütüphanesi içerisinde yer alır, rand fonksiyonu 0 ile 32767 arasında sahte rasgelelikler üretir ama rand fonksiyonun hatalı olduğu kısımlar vardır bu hatalar rand fonksiyonun srand fonksiyonun aksine her seferinde aynı sırayı kullanmasıdır, bu sayı rand fonksiyonunu etkileyen değişkenin değiştirilmesi ile değişebilir, aynı zamanda bu fonksiyona (psuedo numbers) denmektedir .
+
+Peki bu sayılar nasıl üretiliyor ve bu rastgelelikler nasıl sağlanıyor sorusuna ise time.h kütüphanesinden geliyor denilebilir time.h sistem saatini 1970’den itibaren sayan bir kütüphane ve biz bir sayı istediğimiz zaman, bir değer girdiğimiz zaman 1970’den günümüze kadar olan mikro saniyelerin arasından istediğimiz aralıkta sayı veriyor, bunu bir dize gibi de düşünebiliriz, bu yolla bize istediğimiz sayı aralığında rastgele bir sayı vermiş oluyor.
+
