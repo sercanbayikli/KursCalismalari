@@ -1,0 +1,4 @@
+C de random değer almak için rand() kullanırız.
+Ama o da kendi için de aslında rasgele değildir sürekli aynı tekrarı yaptığı için artı olarak srand() kullanılabilir
+srand sayesinde seed belirlenir eğer bu seedi time(0) olarak alınırsa zaman değiştiğinden dolayı seed de değişir
+ve  aynı değerler tekrarlanmaz ,rand() gibi her seferinde çıkan sayıların sırası aynı olmaz .
