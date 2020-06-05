@@ -1,0 +1,24 @@
+C' de rastgele sayı üretmek için kullanabileceğimiz fonksiyonun adı rand() dır.
+Bu fonksiyon 0 ve RAND_MAX (2^16?) arası bir sayı çıktısı verir. Fonksiyon <stdlib.h> kütüphanesine dahildir.
+rand() fonksiyonu her çalıştırıldığında aynı sayıları verir. 
+Örneğin, 
+
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+  int i, sayi;
+  for(i = 0 ; i < 5 ; i++)
+   {
+     sayi = rand() % 6 + 1;
+     printf("%d",sayi);
+   }
+  return 0;
+}
+
+kodunu her çalıştırdığımızda 2 5 4 2 6 sayılarını alırız. Bu yüzden rand() fonksiyonunun oluşturduğu sayılara pseudo-random yani sahte rastgele sayılar denir.
+
+rand() fonksiyonunun aksine gerçek rastgele sayılar üreten srand() fonksiyonu da <stdlib.h> kütüphanesinde bulunmaktadır.
+rand() fonksiyonunun her seferinde aynı sayıları vermesinin sebebi seed değerinin srand(time(NULL)); gibi tanımlanmaması sebebiyle srand(1) olması. 
+
+Yukarıda yazan koda srand(time(NULL)); satırını eklersek seed değeri değişecek ve kod her çalıştırıldığında farklı sayılar verecek.
