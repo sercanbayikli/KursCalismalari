@@ -1,0 +1,18 @@
+Random sayılar nasıl çalışır: 
+C dilinde rand() ve srand() fonksiyonları ile alınan random sayılar aslında pek de random sayılmazlar.
+Önceden belirlenmiş bir formüle göre belirlenirler. srand() fonksiyonu rand() fonksiyonu için bir seed sağlar.
+srand() fonksiyonuna girilen seed önceden belirlenmiş formüle girer ve rand() fonksiyonu sonucuyla da 
+formülden çıkan sonucu görmüş oluruz. Devamında bir daha random bir sayı çekmek istediğimizde ise bir önceki sonuç
+seed olarak ayarlanır ve bu sefer o formülden geçerek yeni bir sonuç verir. Her random sayı çağırışımızda bu şekilde
+loop içinde devam eder. Eğer program başlatıldığında her seferinde ilk seedi aynı girersek sürekli olarak aynı
+sonuçlarla karşılaşmış oluruz. Bunun olmamasını istersek seedimizi [srand(time(0))] şeklinde tanımlarız. Bu şekilde
+tanımladığımızda seedimiz "time_t" olarak bilinen ve zamana bağlı olarak sürekli değişen bir değişkeni seed olarak
+alır ve bu sayede program her çalıştığında farklı bir seedle başladığı için bütün bu sistem neredeyse randomdan
+farksız gibi sonuç verebilir.
+
+Benim Zar.c:
+Benim kodladığım Zar.c en başta size "Auto" ve "Manuel" seçeneklerinden birini seçmenizi ister. Seçiminizi yaptıktan
+sonra sizden bir sayı girmenizi ister. Eğer Auto seçtiyseniz girdiğiniz sayı kadar zar atar ve sonuçlarını tek tek not eder.
+fakat eğer Manuel seçtiyseniz zarların bütün sonuçlarını tek tek sizin girmenizi ister. Bunu yaptıktan sonra sistem
+otomatik olarak bir zar daha atar ve sizin bunu tahmin etmenizi ister. Sonuç olarak da ya doğru bildiniz ya da yanlış bildiniz
+şeklinde sonuç verir.
