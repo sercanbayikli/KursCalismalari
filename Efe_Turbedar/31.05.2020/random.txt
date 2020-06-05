@@ -1,0 +1,5 @@
+C dilinde rastgele bir değer almak için, ben ilk önce kodumun içine time.h ile stdlib.h kütüplanelerini ekledim.
+Daha sonra "srand (time(NULL))" yazarak srand fonksiyonuna, 00:00:00 UTC, Ocak 1, 1970'ten beri geçen saniyeleri gereken seed olarak koyduktan sonra, rand() kullanarak Zar.c kodunda neredeyse tamamen rastgele sayılar elde edebilmiştim.
+Fakat ne kadar rastgele sonuçlar elde edebilsek bile aslında sadece ,herksesinde kendi yazısına ekleyeceği şekliyle,yarı-rastgele(pseudo-random) sayılar elde etmiş oluruz.
+Burada benimde ilk başta karşılaşmış olduğum problem, rand() fonksiyonunun kendi başına her zaman aynı sabit değerleri vermesiydi.
+Bunun sebebi rand() fonksiyonunun her zaman farklı değer vermek için değil, belli parametreler ile kullanıldığında her zaman aynı değerleri vermek için yaratılmış olmasıdır.
