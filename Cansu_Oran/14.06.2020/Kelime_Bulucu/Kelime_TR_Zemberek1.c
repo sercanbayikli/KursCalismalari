@@ -31,8 +31,7 @@ while(fgets(temp, 512, file) != NULL) {
 	if(find_result == 0) {
 		printf("\nSorry, couldn't find a match.\n");
 	}
-	
-
+printf("%d",find_result );
 
 }
 
