@@ -16,7 +16,7 @@ while(fgets(gecici, 512, fp) != NULL) {
 
 if((strstr(gecici, girdi)) != NULL) {
 printf("\n%s", gecici);
-sonuc++;
+
 }
 }
 
