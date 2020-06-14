@@ -25,5 +25,6 @@ printf("\nsonuc yok.\n");
 }
 }
 fclose(fp);
+printf("%d",sonuc);
 return 0;
 }
