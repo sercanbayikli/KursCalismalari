@@ -32,7 +32,7 @@ while(fgets(temp,512, file) != NULL) {
 
 
 int b=65;
- for(int satir=0;dizi[satir]!='\0';satir++){
+ for(int satir=0;satir+b!='[';satir++){
    fprintf(file1,"%c : %d\n",satir+b,dizi[satir]);
                
                 
