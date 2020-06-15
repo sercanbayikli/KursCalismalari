@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+char    *ft_strstr(char *str, char *to_find);
 
 FILE * file; 
 char dizi[10000][1000];
@@ -20,7 +20,7 @@ printf("Kelime girin: ");
 scanf("%s",str);
 
 while(fgets(temp, 512, file) != NULL) {
-		if((strstr(temp, str)) != NULL) {
+		if((ft_strstr(temp, str)) != NULL) {
 			printf("A match found on line: %d\n", line);
 			printf("\n%s\n", temp);
 			find_result++;
