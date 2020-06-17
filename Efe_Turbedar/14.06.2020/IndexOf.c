@@ -6,7 +6,7 @@ int main(int argc, char *argv[]){
         while(fscanf(fptr,"%s",a)!=EOF){
      		fscanf(fptr,"%[^\n]",a);
 		if ((strstr(a,argv[1]))!=NULL){
-			printf("%d-%s\n",a);
+			printf("%s\n",a);
 		}
                 fscanf(fptr, "\n");
         }
