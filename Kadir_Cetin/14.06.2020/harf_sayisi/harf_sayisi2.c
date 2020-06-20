@@ -16,7 +16,7 @@ while((a = getc(file))!= EOF) {
 }
 file1 = fopen("harf_sayisi.txt","w");
 for(int i = 0; i < 26; i++) {
-fprintf(file,"%c = %d\n",('a' + i) - 32,sayi[i]);
+fprintf(file1,"%c = %d\n",('a' + i) - 32,sayi[i]);
 }
 fclose(file);
 fclose(file1);
